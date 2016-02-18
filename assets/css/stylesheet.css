@@ -1,0 +1,52 @@
+.mainContainer {
+  width: 1290px;
+  height: 1835px;
+  margin-top: 150px;
+  align-items: center;
+  padding-right: 0;
+  /*min-width: 1230px;*/
+}
+
+.feline {
+  position: relative;
+  display: inline-block;
+}
+
+
+img.feline__image {
+  width: 210.828px;
+  height: 337px;
+}
+
+
+h3 {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  display: block;
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 30px;
+  padding-top: 60%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+.feline__body {
+  background: rgba(71,163,218,0.2);
+  color: white;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3em 2.5em;
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+
+}
+
+
+.feline__body:hover {
+  opacity: 1;
+}
